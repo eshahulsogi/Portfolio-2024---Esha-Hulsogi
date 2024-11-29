@@ -1,0 +1,195 @@
+body
+{
+    font-family: poppins;
+}
+
+/*navbar style*/
+
+.navbar
+{
+    background-color: #242424;
+}
+
+.navbar-nav .nav-link {
+    color: #999;
+    text-transform: uppercase;
+    margin-right: 20px;
+  }
+  
+  .navbar-nav .nav-link.active {
+    color: #fff;
+  }
+  
+  .navbar-nav .nav-link:hover,
+  .navbar-nav .nav-link:focus {
+    color: #fff;
+  }
+  
+  @media (max-width: 768px) {
+    /* Navbar for medium screens and below */
+    .navbar-nav {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navbar-toggler {
+      border: none;
+      background-color: transparent;
+    }
+  
+    .navbar-toggler-icon {
+      color: #fff;
+    }
+  }
+
+  /*explore style*/
+
+.banner 
+{
+    background-color: #242424;
+    padding: 50px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+.banner h6 {
+    color: #fff;
+    font-size: 44px;
+    font-weight: 500;
+    letter-spacing: 6px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+@media (max-width: 768px) {
+    /* Banner for medium screens and below */
+    .banner .col-md-4:first-child,
+    .banner .col-md-4:last-child {
+        display: none;
+    }}
+
+    /*project gallery style*/
+
+    .project-gallery {
+        background-color: #fff;
+        padding-top: 50px ;
+        padding-bottom: 25px;
+    }
+    
+    .project-gallery .row {
+        margin-bottom: 20px; /* Add margin between rows */
+    }
+    
+    .project-gallery .card {
+        border: 1px solid #242424;
+        text-align: center;
+        height: 650px; /* Adjust height as needed */
+    }
+    
+    .project-gallery .card-img-top {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    
+    .project-gallery .card-body {
+        padding: 20px;
+    }
+    
+    .project-gallery .card-title {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    
+    .project-gallery .card-text {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    
+    .project-gallery a {
+        text-decoration: none; /* Remove default underline on links */
+    }
+    
+    @media (max-width: 768px) {
+        .project-gallery .row {
+            flex-direction: column;
+        }
+    
+        .project-gallery .col-md-4 {
+            flex: 0 0 100%;
+            margin-bottom: 20px;
+        }
+    }
+
+
+    /*project gallery cta*/
+
+    .project-cta {
+        background-color: #fff;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    
+    .project-cta p {
+        font-size: 24px;
+        margin-bottom: 20px;
+        letter-spacing: 3px;
+    }
+    
+    .project-cta .btn {
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+    
+    .project-cta .btn-dark {
+        background-color: #242424;
+        color: #fff;
+    }
+    
+    .project-cta .btn-dark:hover 
+    {
+        background-color: transparent;
+        border: 1px solid #242424;
+        color: #242424;
+    }
+
+    /*footer style*/
+
+.footer 
+{
+    background-color: #242424;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: #fff;
+   
+}
+
+.footer a 
+{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.say-hello {
+    display: inline-block;
+}
+
+.say-hello img {
+    width: 450px;
+    height: auto;
+}
+
+.footer .text-end
+{
+
+    padding-top: 25px;
+    padding-right: 50px;
+}
+
+    
+    
+
+
+
